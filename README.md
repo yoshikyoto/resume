@@ -17,11 +17,19 @@
   * JenkinsによるCI
   * SwaggerによるAPIドキュメント管理
   
-## その他経歴
+## その他業務経験
 
-* SwiftでのiPhoneアプリ開発経験
-* Docker, Python, Django, AWS（EC2, Elactic Beanstalk）を使った開発
-  
+* SwiftでのiPhoneアプリ開発
+  * Swift 4
+* Python, Doker, AWS を使った開発
+  * Python 3
+  * Django Framework
+  * Django REST Framework
+  * Docker
+  * MySQL
+  * AWS（EC2, Elactic Beanstalk, RDS）
+* FuelPHPを使った開発
+
 ## 資格
   
 * 2018年6月　情報処理安全確保支援士
