@@ -18,10 +18,14 @@
 
 ## 連絡先
 
+上の連絡先ほど気づきやすいかと思います。
+
 * stbアンダーバーyoshiyukiハイフンsアットマークhotmail.co.jp
   * `アンダーバー`、`ハイフン`、`アットマーク` をそれぞれ記号に置き換えてください
 * twitter: [yoshiki_utakata](https://twitter.com/yoshiki_utakata)
   * （あまりに大量のDMが来るなどしない限りは）DMはオープンにしておく予定です
+* クラウドワークス: https://crowdworks.jp/public/employees/1527111
+* Facebook: https://www.facebook.com/stb.yoshiyuki.s
   
   
 ## やりたいこと・得意分野
@@ -66,6 +70,10 @@
 
 
 ## 個人開発での技術スタック
+
+* Ruby on RailsでのWebアプリケーション開発
+* goとrevelでのWebアプリケーション開発
+* C#, Unityでの開発
 
 ## 学歴
 
