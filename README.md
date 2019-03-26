@@ -1,6 +1,6 @@
 # 坂本　祥之（さかもと　よしゆき）
 
-* 生年月日 1990年5月3日 
+* 生年月日 1990年5月3日
 * 東京都在住
 
 ## 自己紹介・この履歴書について
@@ -40,7 +40,7 @@
 |2009年4月 - 2013年3月|京都大学　工学部　情報学科|
 |2013年4月 - 2015年3月|京都大学大学院　情報学研究科　社会情報学専攻|
 |2015年4月 - 現在|株式会社ドワンゴ|
-  
+
 ## 興味のある分野・得意分野
 
 * 大学時代に研究していた自然言語処理やビッグデータに対する解析
@@ -63,7 +63,7 @@ Scala, Play Framework を利用し動画投稿・コメントできるサービ�
 * チーム人数: 4人
 * Scala, Play Framework
 
-#### 2015年6月 - 2018年4月 ニコニコ動画サーバーサイド開発・保守
+#### 2015年6月 - 2018年4月 ニコニコ動画サーバーサイド開発・運用
 
 * チーム人数: 10〜15人（全員開発）
 * 役割: 開発メンバー
@@ -72,62 +72,101 @@ Scala, Play Framework を利用し動画投稿・コメントできるサービ�
   * お問い合わせや不具合対応
   * サーバーサイドのミドルウェアやPHPのバージョンアップ
   * 障害対応
+  * 新機能の提案や企画
 * 使用技術
   * LAMP（Linux, Apache, MySQL, PHP）環境での開発
   * PHP Laravelフレームワーク
-  * Vagrant
-  * Ansibleによるインフラ構成管理
+  * Vagrant での開発環境
+  * Ansible によるインフラ構成管理
   * 要件定義・設計・自動テスト・コードレビュー
   * JenkinsによるCI
-  * ドメイン駆動設計
+  * ドメイン駆動設計とクリーンアーキテクチャによる開発
   * Zabbixによる死活監視
   * Consulによる構成管理
+* その他
+  * Atlassian（Jira, Confluence）
+* 成果
+  * http://blog.nicovideo.jp/niconews/55425.html
+    * 企画・提案から実装まですべてを行いました
+  * https://www.utakata.work/entry/2017/12/15/100000
+  * PHP 5.6 -> PHP 7 のバージョンアップ
 
-#### 2018年4月 - 2018年10月 ニコニコ動画新規APIサーバー開発
+#### 2018年4月 - 2018年10月 ニコニコ動画新規APIサーバー新規開発
 
-ニコニコ動画サーバーサイド開発・保守のしごとを続けながら
+ニコニコ動画サーバーサイド開発・保守のしごとを続けながら新規フロントAPIサーバーの開発を行った。
 
 * チーム人数: 5人
 * 役割: チームリーダー兼開発
   * メンバーの工数やリリースのスケジュール管理
+  * 他部署（アプリチーム・webブロントエンド開発チーム）との仕様の調整と実装優先度の判断
 * 使用技術
   * LAMP（Linux, Apache, MySQL, PHP）
   * PHP Slimフレームワーク
   * OpenAPIによるAPIドキュメント管理
-  
+  * インフラ構成検討（LB、サーバー等）
+  * Ansible による構成管理
+
+#### 2018年10月 - 現在 ニコニコ動画新規APIサーバー開発・運用
+
+* チーム人数や使用技術は同上
+
+### 2019年2月 - 現在 NicoBoxサーバーサイド新規開発
+
+NicoBoxというスマートフォンアプリのサーバーサイド新規開発
+
+* チーム人数: 5人
+* 役割: チームリーダー兼開発
+  * アプリは外部委託のため外部とのやり取り
+  * その他レコメンドの一部なども外部APIなのでそことのやり取り
+  * 企画との調整
+* 使用技術
+  * Go
+  * AWS
 
 ## 本業以外での技術スタック概要
 
+### 2018年4月 - 現在継続中 （一社目）
+
+とあるニュースアプリのサーバーサイド開発・保守ととiPhoneアプリ開発
+
+* チーム人数: 5人程度
+* 役割: 開発メンバー
+* 使用技術
+  * Python 3, Django, Django REST Framework
+  * Docker
+  * MySQL 5.7
+  * AWS（EC2, Elactic Beanstalk, RDS, S3）
 * SwiftでのiPhoneアプリ開発
   * Swift 4
-* Python, Doker, AWS を使った開発
-  * Python 3
-  * Pipenv
-  * Django Framework
-  * Django REST Framework
-  * Docker
-  * MySQL
-  * AWS（EC2, Elactic Beanstalk, RDS, S3）
-  * Vue CLI 3を利用したSPA開発
-* FuelPHPを使った開発
+  * CocoaPods
+  * ユニットテスト
 
+### 2018年12月 - 2018年3月 （2社目）ファイルアップロードシステムの開発
+
+* チーム人数: 3人
+* 役割: 主にファイルアップロード周りの開発
+* 使用技術
+  * Python 3, Pipenv, Django
+  * MySQL 8.0
+  * Vue.js 2.0, Vue CLI 3
+  * AWS（EC2, S3, CloudFront）
 
 ## 個人開発での技術スタック
 
 * Ruby on RailsでのWebアプリケーション開発
-* goとrevelでのWebアプリケーション開発
 * C#, Unityでの開発
-  
 
 
 ## ポートフォリオ
 
 * LGTMoon（Webサービス）
   * http://lgtmoon.herokuapp.com/
-  * 言語: Scala, Play Framework, PostgreSQL, Vue.js
+  * 技術: Scala, Play Framework, PostgreSQL, Vue.js
+  * https://github.com/yoshikyoto/lgtmoon
 * League of Legends Mastodon （非公式）運営
   * https://summoners-riftodon.jp
-  * 言語: Ruby, React, Docker
+  * 技術: Ruby, React, Docker
+  * https://github.com/summoners-riftodon/mastodon
 * ブラインドバスターズ（スマートフォンゲーム）
   * http://yoshikyoto.github.io/blindbusters/
   * C#, Unity
@@ -135,35 +174,12 @@ Scala, Play Framework を利用し動画投稿・コメントできるサービ�
 
 
 ## 資格
-  
+
 * 2018年6月　情報処理安全確保支援士
 * 2018年10月　ネットワークスペシャリスト
 
-  
-## より詳細な業務内容や技術スタック
 
-### 株式会社ドワンゴでの業務の詳細
-
-#### 動画サービスのAPIサーバー新規立ち上げ
-
-老朽化したAPIサーバーに代わり、動画サービスのAPIサーバーを立ち上げ（新規サービス開発）、
-現在グループリーダーとしてそのサービスの保守・運用を行っています。
-
-* プライベートクラウド（社内クラウド）環境を利用
-* GitHubを利用した開発
-* Ansibleを利用したサーバー群の新規構築・構成管理
-* LAMP（Linux, Apache, MySQL, PHP）を利用した開発
-* PHP Slim Framework を利用し、保守性を意識したプログラム開発
-* RESTを意識したAPI群の開発
-* 他関連サービスから必要なAPIへのヒアリングと要件定義
-* 開発メンバーの進捗管理とタスク割り振り
-* Zabbixを利用したサーバーの監視
-* OpenAPI（Swagger）を利用したAPIドキュメントの管理
-* Jenkinsを利用したCI（継続的インテグレーション）環境の整備
-* GraphQL など新しい技術スタックの研究
-
-
-### 大学での専攻・研究論文の詳細
+## 大学での専攻・研究論文の詳細
 
 大学時代は、「自然言語処理」「ビッグデータ」「機械学習」「e-Learning」「MOOC」をテーマに研究していました。
 
